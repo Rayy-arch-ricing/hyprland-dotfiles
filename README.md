@@ -78,3 +78,4 @@ Make sure the theme script is executable:
 ```bash
 chmod +x ~/.local/bin/theme
 ```
+Don't forget about that bind of sklauncher and Spotify, i recommend you install Spotify by flatpak, and remove that sklauncher bind, also install grim and slurp.
