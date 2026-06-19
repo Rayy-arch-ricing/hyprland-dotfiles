@@ -80,3 +80,5 @@ chmod +x ~/.local/bin/theme
 ```
 Don't forget about that bind of sklauncher and Spotify, i recommend you install Spotify by flatpak, and remove that sklauncher bind, also install grim and slurp. Also create a diretory with mkdir -p ~/.themes and copy all the wallpaper to ~/.themes like cp wallpapers/* ~/.themes/ 
 The scripts expect the wallpapers to be in ~/.themes
+
+Good luck.
