@@ -1,0 +1,166 @@
+@import url("/home/rayy/.cache/wallust/waybar-colors.css");
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 11px;
+    border: none;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    border: none;
+    min-height: 30px;
+}
+
+/* ===== ARCH + WORKSPACES ===== */
+
+#custom-arch {
+    background: rgba(18,18,18,0.80);
+
+    border-top: 1px solid rgba(255,255,255,0.10);
+    border-left: 1px solid rgba(255,255,255,0.10);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+
+    margin: 4px 0 4px 8px;
+
+    padding-left: 14px;
+    padding-right: 10px;
+
+    color: @color4;
+    font-size: 14px;
+}
+
+#workspaces {
+    background: rgba(18,18,18,0.80);
+
+    border-top: 1px solid rgba(255,255,255,0.10);
+    border-right: 1px solid rgba(255,255,255,0.10);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+
+    margin: 4px 0;
+
+    padding: 0 8px;
+}
+
+#workspaces button {
+    color: #999999;
+    min-width: 20px;
+    padding: 0 4px;
+    border-radius: 999px;
+    transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+    background: rgba(255,255,255,0.18);
+    color: @color4;
+}
+
+#workspaces button:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+/* ===== CLOCK ===== */
+
+#clock {
+    background: rgba(18,18,18,0.80);
+    border: 1px solid rgba(255,255,255,0.10);
+
+    border-radius: 999px;
+
+    margin: 4px 0;
+
+    padding: 0 16px;
+
+    min-width: 120px;
+
+    color: @color4;
+    font-weight: bold;
+}
+
+/* ===== SPOTIFY ===== */
+
+#custom-spotify {
+    background: rgba(18,18,18,0.80);
+    border: 1px solid rgba(255,255,255,0.10);
+
+    border-radius: 999px;
+
+    margin: 4px 6px 4px 0;
+
+    padding: 0 16px;
+
+    color: @color4;
+    min-width: 180px;
+}
+
+/* ===== STATUS CAPSULE ===== */
+
+#cpu {
+    background: rgba(18,18,18,0.80);
+
+    border-top: 1px solid rgba(255,255,255,0.10);
+    border-left: 1px solid rgba(255,255,255,0.10);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+
+    margin: 4px 0;
+
+    padding-left: 12px;
+    padding-right: 6px;
+
+    color: @color4;
+}
+
+#memory,
+#network {
+    background: rgba(18,18,18,0.80);
+
+    border-top: 1px solid rgba(255,255,255,0.10);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+
+    margin: 4px 0;
+
+    padding-left: 6px;
+    padding-right: 6px;
+
+    color: @color4;
+}
+
+#pulseaudio {
+    background: rgba(18,18,18,0.80);
+
+    border-top: 1px solid rgba(255,255,255,0.10);
+    border-right: 1px solid rgba(255,255,255,0.10);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+
+    margin: 4px 8px 4px 0;
+
+    padding-left: 6px;
+    padding-right: 12px;
+
+    color: @color4;
+}
+
+/* ===== TOOLTIPS ===== */
+
+tooltip {
+    background: rgba(18,18,18,0.95);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 12px;
+}
+
+tooltip label {
+    color: white;
+}

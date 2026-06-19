@@ -1,0 +1,14 @@
+#!/bin/bash
+
+THEME=$(ls ~/.themes | wofi --dmenu -p "Wallpaper")
+
+[ -z "$THEME" ] && exit
+
+awww img "$HOME/.themes/$THEME"
+
+wallust run "$HOME/.themes/$THEME"
+
+pkill waybar
+waybar &
+
+cp ~/.cache/wallust/cava-colors ~/.config/cava/colors

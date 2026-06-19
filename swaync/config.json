@@ -1,0 +1,17 @@
+{
+  "widgets": [
+    "title",
+    "dnd",
+    "mpris",
+    "notifications"
+  ],
+
+  "widget-config": {
+    "title": {},
+    "dnd": {},
+    "notifications": {},
+    "mpris": {
+      "show_album_art": true
+    }
+  }
+}
