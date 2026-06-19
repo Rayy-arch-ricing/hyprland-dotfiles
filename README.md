@@ -7,6 +7,7 @@ Kitty
 Fastfetch
 Wofi
 Wallust
+awww
 Cava
 Features
 Wallpaper selector with Wofi (SUPER + T)
